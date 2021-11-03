@@ -95,7 +95,6 @@ def infinity():
 		except:
 			print('[-] Не отправлено!')
 
-
 		try:
 			requests.post('https://www.rabota.ru/remind', data={'credential': _phone})
 			print('[+] Rabota Успех!')
